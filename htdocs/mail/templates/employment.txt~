@@ -1,0 +1,16 @@
+To: "Jerry" <webresponder001@prairierailing.com>
+From: "{firstname} {lastname}" <{email}>
+Content-Type: text/plain
+Content-Transfer-Encoding: 8bit
+Subject: {subject}
+
+{comment}
+
+
+
+----------------------------
+{env_year}-{env_month}-{env_day} ({env_hour}:{env_minute}:{env_second})
+
+{env_remote_address} ({env_remote_host})
+
+{env_user_agent}

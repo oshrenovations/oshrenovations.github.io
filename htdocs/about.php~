@@ -1,0 +1,8 @@
+<?php
+$page_title = 'About Prairie Railing';
+include ('./header.inc');
+?>
+<?php include("./edit/blocks/about.html"); ?>
+<?php
+include ('./footer.inc');
+?>

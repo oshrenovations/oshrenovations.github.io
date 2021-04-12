@@ -1,0 +1,8 @@
+<?php
+$page_title = 'Commercial Kitchens';
+include ('./header.inc');
+?>
+<?php include("/var/www/pr/edit/blocks/com_kitchen.html"); ?>
+<?php
+include ('./footer.inc');
+?>

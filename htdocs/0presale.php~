@@ -1,0 +1,8 @@
+<?php
+$page_title = 'Buildings';
+include ('./header.inc');
+?>
+<?php include("./edit/blocks/building.html"); ?>
+<?php
+include ('./footer.inc');
+?>

@@ -1,0 +1,8 @@
+<?php
+$page_title = 'Quality of Workmanship Guarantee';
+include ('./header.inc');
+?>
+<?php include("./edit/blocks/guarantee.html"); ?>
+<?php
+include ('./footer.inc');
+?>

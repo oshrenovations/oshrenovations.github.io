@@ -1,0 +1,48 @@
+Page Name		Page Title			Active
+
+Category: Home
+index			Home				yes
+
+Category: The Company
+about			The Company			yes
+mission			Mission				yes
+certification 		Certifications			yes
+membership		Memberships			yes
+
+Category: Railings
+railing			Railing				yes
+private_home		Private Homes			no
+commercial_res		Commercial Residences		no
+commercial		Commercial			no
+exterior		Exterior			no
+
+Category: Kitchens
+kitchen			Kitchen				yes
+countertop		Countertops			no
+commercial_kitchen	Commercial Kitchens		no
+restaurant		Restaurant			no
+
+Category: Design
+design			Design				yes
+railing_design		Railing Designs			no
+engineering		Engineering			no
+consulting		Consulting			no
+
+Category: Manufacturing
+manufacturing		Manufacturing			yes
+fabrication		Fabrication			no
+structures		Structures			no
+building		Buildings			no
+
+Category: Links
+link			Links				no
+
+Category: Image Gallery
+design_gallery		Image Gallery			yes
+
+Category: Contact
+contact			Contact Us			yes
+office			Office				yes
+map			Map				yes
+employment		Employment Opportunities	yes
+

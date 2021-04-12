@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="{txt_content_direction}">
+
+<head>
+		<meta name="author" content="Keith Mastin" >
+		<meta name="generator" content="gedit - text editor" >
+		<meta name="description" content="Old School Handyman Renovations Website" >
+		<meta name="keywords" content="Regina,Bethune,renovation,renovations,remodel,remodelling,drawings,design,pre-sale,addition,additions,remodel,remodelling,handyman,home&repair,stairs,railings,railing,textured&wall&or&ceiling,drywall,install,tile,general,tile,tiling,stone,kitchen,backsplash,back&splash,bath,shower,bathroom,shelves,cupboards" >
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
+		<meta http-equiv="Content-Type" content="text/html; charset={txt_charset}" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" >
+		<meta http-equiv="Content-Style-Type" content="text/css" >
+		<link rel="stylesheet" type="text/css" href="../oshr.css">
+		<link rel="stylesheet" type="text/css" href="../styles.css">
+		<style>	@ import url("../oshr.css");
+			@ import url("../styles.css");
+		</style>
+		<script type="text/javascript" src="../menu.js"></script>
+		<title>Message board</title>
+</head>
+
+<style type="text/css">
+<!--
+  body {
+      font-family:Arial,Helvetica,Geneva,Sans-serif,sans-serif;
+  }
+
+
+  p, td, br, form, div, span, blockquote {
+      font-family:Arial,Helvetica,Geneva,Sans-serif,sans-serif;
+  }
+
+
+  .index {
+      font-weight:bold;
+  }
+
+
+  #poweredby {
+      text-align:center;
+      margin-top:30px;
+  }
+
+-->
+</style>
+
+<body text="#1B2860" bgColor="#E5E5E5">
+<table width="100%" border="0" align="center" cellspacing="4" cellpadding="1">
+	<tr>
+		<td width="15%" valign="top"><img src="././././Images/logo.jpg" width="123" height="123" alt="Logo"></td>
+		<td width="65%"><H1><center><span style="font-family:arial,helvetica,sans-serif;">Old School Handyman Renovations</span></center></H1></td>	</tr>
+	<tr>
+		<td></td>
+		<td align="right">
+			<form method="get" action="http://www.google.com/search">
+				<input type="text"   name="q" size="31"
+				 	maxlength="255" value="" />
+				<input type="submit" value="Google Search" /></small>
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<table border="0" cellpadding="3" cellspacing="4">
+				<tr>
+					<td colspan="2"><h3><center>Contact Us</center></h3>
+					</td>
+				</tr>
+				<tr align="center" valign="top">
+					<td width="10%"></td>
+					<td width="80%" align="left"><center><p><b>Email Us using this form</b></p></center>
+						<p>Use this form to book an appointment, request a quote or send a comment.</p>
+						<p><ul>If booking an appointment, please let us know the following information:
+								<li>The week you wish to book an appointment in;</li>
+								<li>The best time(s) to contact you; and</li>
+								<li>Contact information (either telephone number or email address</li>
+							</ul></p>
+						<p><ul>If requesting a quote, please include the following information:
+								<li>The nature of the quote (i.e.-railing, manufacturing, etc.);</li>
+								<li>Include as many details as possible;</li>
+								<li>The best time(s) to contact you; and</li>
+								<li>Contact information (either telephone number or email address</li>
+							</ul></p>
+					</td>
+					<td>
+
+
+  <!-- Display error messages (required fields etc.) -->
+  <LOOP NAME="message">
+    <blockquote style="color:#FF5F00;">
+      <p style="font-weight:bold;">{message}</p>
+      <blockquote>{fields}</blockquote>
+    </blockquote>
+  </LOOP NAME="message">
+
+
+  <!-- Display posted information -->
+  <LOOP NAME="display_data">
+
+    <table border="0" cellpadding="3" cellspacing="0">
+      <tr>
+        <td class="index">{txt_firstname}</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>{firstname}</td>
+      </tr>
+      <tr>
+        <td class="index">{txt_lastname}</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>{lastname}</td>
+      </tr>
+      <tr>
+        <td class="index">{txt_email}</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>{email}</td>
+      </tr>
+      <tr>
+        <td class="index">{txt_subject}</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>{subject}</td>
+      </tr>
+      <tr valign="top">
+        <td class="index">{txt_comment}</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>{comment}</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </LOOP NAME="display_data">
+
+
+
+
+
+  <!-- Display form -->
+  <IF NAME="display_form">
+  <form action="{script_self}" method="post">
+    <input type="hidden" name="required_fields" value="lastname, email, subject" />
+    <input type="hidden" name="email_fields" value="email" />
+    <input type="hidden" name="html_template" value="form.tpl.html" />
+    <input type="hidden" name="mail_template" value="mail.tpl.txt" />
+    <!-- <input type="hidden" name="thanks" value="./docu/thanks.html" /> -->
+    <!-- <input type="hidden" name="error_page" value="./docu/error.html" /> -->
+
+    <table border="0" cellpadding="3" cellspacing="0">
+      <tr>
+        <td>{txt_firstname}</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td><input type="Text" name="firstname" value="{firstname}" size="40" /></td>
+      </tr>
+      <tr valign="bottom">
+        <td>{txt_lastname} *</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          <input type="Text" name="lastname" value="{lastname}" size="40" />
+        </td>
+      </tr>
+      <tr valign="bottom">
+        <td>{txt_email} *</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          <input type="Text" name="email" value="{email}" size="40" />
+        </td>
+      </tr>
+      <tr>
+        <td valign="bottom">{txt_subject} *</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          <input type="Text" name="subject" value="{subject}" size="40" />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>{txt_comment}</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td><textarea name="comment" cols="30" rows="10">{comment}</textarea></td>
+      </tr>
+      <tr valign="top">
+        <td colspan="3">
+          {txt_captcha_note}
+          <br /><br />
+          {captcha_content}
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>&nbsp;</td>
+        <td>&nbsp;&nbsp;&nbsp;</td>
+        <td>
+          <input type="submit" name="mode_preview" value="{txt_preview}" />&nbsp;&nbsp;
+          <input type="submit" name="send" value="{txt_submit}" />
+        </td>
+      </tr>
+    </table>
+
+
+
+  </form>
+  <p>* = {txt_mandatory_fields}</p>
+  </IF NAME="display_form">
+
+		</td>
+	</tr>
+</table
+</body>
+</html>

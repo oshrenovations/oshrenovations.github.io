@@ -1,0 +1,8 @@
+<?php
+$page_title = 'Railing Design';
+include ('./header.inc');
+?>
+<?php include("./edit/blocks/railing_design.html"); ?>
+<?php
+include ('./footer.inc');
+?>

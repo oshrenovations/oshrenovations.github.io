@@ -1,0 +1,391 @@
+body {
+		background-color: white;
+		color: #333333;
+		font-size: 12px;
+		padding: 0px;
+		margin: 0px;
+		font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	}
+
+	.header {
+		border-bottom-color: #ddd;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+		background-repeat: repeat;
+		padding: 0px;
+		margin: 0px;
+		color: white;
+		width: 100%;
+		background-color: #222;
+	}
+
+	.header div {
+		padding: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.header img {
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+
+	.main-inner {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+
+	.main {
+		
+		border-bottom-color: #c7c7c7;
+		
+		border-bottom-width: 0px;
+		
+		border-bottom-style: solid;
+		
+		background-position: 0 bottom;
+		
+		background-repeat: repeat-x;
+		
+		background-image: url(img/bott-gradient2.png);
+		
+		padding-left: 0px;
+		padding-bottom: 15px;
+		padding-right: 0px;
+		padding-top: 25px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		background-color: #fff;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+	}
+
+	img {
+	border-width: 0px;
+}
+
+	a {
+	color: #3399ff;
+}
+
+	h1 {
+	padding-left: 0px;
+	padding-bottom: 7px;
+	padding-right: 0px;
+	padding-top: 0px;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 0px;
+	border-bottom-style: solid;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-top: 0px;
+	font-size: 17px;
+}
+
+	.clear {
+	clear: both;
+}
+
+	.icon {
+	width: 110px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align: center;
+	float: left;
+}
+
+	.icon span {
+	color: #333333;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: underline;
+}
+
+	.icon img {
+	padding-bottom: 5px;
+}
+
+	.howto {
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #eeeeee;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-left: 7px;
+	font-size: 11px;
+	line-height: 20px;
+	border-color: #cccccc;
+	border-width: 1px;
+	border-style: dashed;
+}
+
+	.backup {
+	padding-right: 0px;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 4px;
+	float: left;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-image: url(img/create-backup.png);
+}
+
+	.backup a {
+	padding: 0px;
+	margin: 0px;
+	text-decoration: underline;
+}
+
+	.zips {
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+	padding-right: 52px;
+	display: inline-block;
+	padding-top: 0px;
+	padding-left: 25px;
+	background-position: 0px 5px;
+	background-repeat: no-repeat;
+	background-image: url(img/package.gif);
+	line-height: 26px;
+	text-decoration: underline;
+	color: #333333;
+}
+
+	.complete {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-bottom: 15px;
+	padding-top: 7px;
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-image: url(img/check-mark.png);
+}
+
+	.footer {
+	border-top-color: #669999;
+	border-top-width: 0px;
+	border-top-style: solid;
+	font-size: 10px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+	.footer a {
+	font-size: 10px;
+}
+
+	.breadcrumb {
+	color: #666666;
+	margin: 0px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	font-size: 14px;
+}
+
+	.breadcrumb a {
+	text-decoration: underline;
+}
+
+	.image {
+	height: 65px;
+	background-color: #e;
+	padding-right: 0px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 11px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 35px;
+	margin-top: 0px;
+	border-top-style: solid;
+	border-top-color: #dddddd;
+	border-top-width: 1px;
+	float: left;
+	width: 350px;
+}
+
+	.image img {
+	margin-left: 0px;
+	margin-bottom: 30px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 25px;
+	padding-top: 0px;
+	max-height: 55px;
+	float: left;
+	max-width: 55px;
+}
+
+.upload-button {
+	padding-bottom: 25px;
+}
+
+	.header ul {
+	font-size: 14px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+	padding-right: 0px;
+	padding-top: 55px;
+	float: right;
+	margin: 0px;
+}
+
+	.header li {
+	padding-left: 7px;
+	padding-bottom: 5px;
+	padding-right: 7px;
+	padding-top: 5px;
+	color: white;
+	display: inline;
+	margin: 0px;
+	list-style-type: none;
+}
+
+	.header li a {
+	padding-right: 7px;
+	padding-left: 7px;
+	margin: 0px;
+	text-decoration: none;
+	color: white;
+}
+
+	.header li a:hover {
+	text-decoration: underline;
+}
+
+	.header .current a {
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: #3091c1;
+}
+
+	.version a {
+	color: #666666;
+}
+
+	.icon a {
+	text-decoration: none;
+}
+
+	.current a {
+	text-decoration: none;
+}
+
+	.zips a {
+	color: #333333;
+}
+
+	.version {
+	float: right;
+	text-decoration: none;
+	color: #666666;
+	padding-top: 5px;
+}
+
+	.version a {
+	text-decoration: none;
+}
+
+	.version a:hover {
+	text-decoration: underline;
+}
+
+	.upload {
+	border-color: #cccccc;
+	border-width: 1px;
+	border-style: solid;
+	width: 400px;
+	background-color: #eeeeee;
+}
+
+	.upload form {
+	padding: 10px;
+}
+
+	.upload img {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 12px;
+	float: left;
+}
+
+	.block-form {
+}
+
+	.new-block {
+	border-color: #dddddd;
+	border-width: 1px;
+	border-style: solid;
+	width: 400px;
+	padding: 15px;
+	background-color: #eeeeee;
+}
+
+	.thumb {
+	background-color: white;
+	font-size: 11px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 35px;
+	margin-top: 0px;
+	border-top-color: #cccccc;
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-top: 10px;
+	height: 75px;
+	float: left;
+	width: 350px;
+}
+
+	.howto input {
+	color: #666666;
+}
+
+	.thumb input {
+	color: #666666;
+}
+
+	.thumb p {
+	padding-top: 5px;
+	margin: 0px;
+	border-color: #dddddd;
+	border-width: 0px;
+	border-style: dashed;
+}
+
+	.thumb img {
+	float: left;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 25px;
+	padding-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 30px;
+	margin-right: 0px;
+	margin-top: 0px;
+	max-height: 75px;
+	max-width: 75px;
+}
+
+	

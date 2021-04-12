@@ -1,0 +1,2610 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<title>Form Mail Script Documentation</title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+h1
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:Arial;}
+h2
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:28.8pt;
+	text-indent:-28.8pt;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:Arial;}
+h3
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:Arial;}
+h4
+	{margin-right:0cm;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+h5
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+a:link, span.MsoHyperlink
+	{font-family:Arial;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.Code, li.Code, div.Code
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Courier New";}
+p.Aufzhlung, li.Aufzhlung, div.Aufzhlung
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	font-size:12.0pt;
+	font-family:Arial;}
+p.Dokumentberschrift, li.Dokumentberschrift, div.Dokumentberschrift
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:16.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.Absatzberschrift, li.Absatzberschrift, div.Absatzberschrift
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+span.CodeChar
+	{font-family:"Courier New";}
+span.AbsatzberschriftChar
+	{font-family:Arial;
+	font-weight:bold;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 2.0cm 63.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=DE link=blue vlink=purple>
+
+<div class=Section1>
+
+<p class=Dokumentberschrift><span lang=EN-US>Form Mail Script Documentation</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Thank you for your interest in our Form
+Mail Script. We recommend that you read this document carefully.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoToc1><a name="_Toc169280239"></a><a name="_Ref169108241"></a><a href="#_Toc198716676"><span lang=EN-US>1</span><span style='font-family:"Times New Roman";
+color:windowtext;font-weight:normal;text-decoration:none'>      </span><span
+lang=EN-US>Introduction</span><span style='color:windowtext;display:none;
+text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>2</span></a></p>
+
+<p class=MsoToc1><a href="#_Toc198716677"><span lang=EN-US>2</span><span
+style='font-family:"Times New Roman";color:windowtext;font-weight:normal;
+text-decoration:none'>      </span><span lang=EN-US>Installation of the script</span><span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>2</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716678"><span lang=EN-US>2.1</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Step by Step</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>2</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716679"><span lang=EN-US>2.2</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Include the Script</span><span style='color:windowtext;display:none;
+text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>4</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716680"><span lang=EN-US>2.3</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Upload the script to the server</span><span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716681"><span lang=EN-US>2.4</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>File and Folder Permissions</span><span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></p>
+
+<p class=MsoToc1><a href="#_Toc198716682"><span lang=EN-US>3</span><span
+style='font-family:"Times New Roman";color:windowtext;font-weight:normal;
+text-decoration:none'>      </span><span lang=EN-US>Set up and configuration</span><span
+style='color:windowtext;display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716683"><span lang=EN-US>3.1</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Options in “index.php”</span><span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716684"><span lang=EN-US>3.2</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Attachments</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716685"><span lang=EN-US>3.3</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Captcha</span><span style='color:windowtext;display:none;text-decoration:
+none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>10</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716686"><span lang=EN-US>3.3.1</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Send E-mails with SMTP</span><span style='color:windowtext;
+display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>11</span></a></p>
+
+<p class=MsoToc1><a href="#_Toc198716687"><span lang=EN-US>4</span><span
+style='font-family:"Times New Roman";color:windowtext;font-weight:normal;
+text-decoration:none'>      </span><span lang=EN-US>HTML template customization
+- /templates/form.tpl.html</span><span style='color:windowtext;display:none;
+text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>12</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716688"><span lang=EN-US>4.1</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Form Fields</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>12</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716689"><span lang=EN-US>4.1.1</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Select Menus</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>13</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716690"><span lang=EN-US>4.1.2</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Checkboxes</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>14</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716691"><span lang=EN-US>4.1.3</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Radio Buttons</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>14</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716692"><span lang=EN-US>4.1.4</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Required Form Fields</span><span style='color:windowtext;display:
+none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>15</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716693"><span lang=EN-US>4.1.5</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>E-mail Syntax</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>15</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716694"><span lang=EN-US>4.1.6</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Compare Two or More Fields</span><span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>15</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716695"><span lang=EN-US>4.2</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Advanced Error Messages</span><span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>16</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716696"><span lang=EN-US>4.2.1</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>{required:fieldname='Error message':endrequired}</span><span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>17</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716697"><span lang=EN-US>4.2.2</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>{syntax:fieldname='Error message':endsyntax}</span><span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>17</span></a></p>
+
+<p class=MsoToc3><a href="#_Toc198716698"><span lang=EN-US>4.2.3</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>{error:fieldname='Default text'||='Error message':enderror}</span><span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>18</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716699"><span lang=EN-US>4.3</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Thank You Page</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>18</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716700"><span lang=EN-US>4.4</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Include Files</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>18</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716701"><span lang=EN-US>4.5</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Ad Link Format</span><span style='color:windowtext;display:none;
+text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>19</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716702"><span lang=EN-US>4.6</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Define HTML Template</span><span style='color:windowtext;display:
+none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>19</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716703"><span lang=EN-US>4.7</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Define Mail Template</span><span style='color:windowtext;display:
+none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>20</span></a></p>
+
+<p class=MsoToc1><a href="#_Toc198716704"><span lang=EN-US>5</span><span
+style='font-family:"Times New Roman";color:windowtext;font-weight:normal;
+text-decoration:none'>      </span><span lang=EN-US>E-mail Template
+Customization - /templates/mail.tpl.txt</span><span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>20</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716705"><span lang=EN-US>5.1</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Mail Header</span><span style='color:windowtext;display:none;
+text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>20</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716706"><span lang=EN-US>5.2</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Mail Body</span><span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>21</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716707"><span lang=EN-US>5.3</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Auto Responder – Confirmation e-mail</span><span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>21</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716708"><span lang=EN-US>5.4</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Display all form data with one placeholder</span><span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>21</span></a></p>
+
+<p class=MsoToc2><a href="#_Toc198716709"><span lang=EN-US>5.5</span><span
+style='font-family:"Times New Roman";color:windowtext;text-decoration:none'>       </span><span
+lang=EN-US>Environment variables and server date and time</span><span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>22</span></a></p>
+
+<p class=MsoToc1><a href="#_Toc198716710"><span lang=EN-US>6</span><span
+style='font-family:"Times New Roman";color:windowtext;font-weight:normal;
+text-decoration:none'>      </span><span lang=EN-US>Language files</span><span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>22</span></a></p>
+
+<p class=MsoToc1><a href="#_Toc198716711"><span lang=EN-US>7</span><span
+style='font-family:"Times New Roman";color:windowtext;font-weight:normal;
+text-decoration:none'>      </span><span lang=EN-US>The Log File -
+log/logfile.txt</span><span style='color:windowtext;display:none;text-decoration:
+none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>23</span></a></p>
+
+<p class=MsoToc1><a href="#_Toc198716712"><span lang=EN-US>8</span><span
+style='font-family:"Times New Roman";color:windowtext;font-weight:normal;
+text-decoration:none'>      </span><span lang=EN-US>Support</span><span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>23</span></a></p>
+
+<p class=MsoToc1><a href="#_Toc198716713"><span lang=EN-US>9</span><span
+style='font-family:"Times New Roman";color:windowtext;font-weight:normal;
+text-decoration:none'>      </span><span lang=EN-US>License Information</span><span
+style='color:windowtext;display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>23</span></a></p>
+
+<h1><span lang=EN-US>1<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US><a name="_Toc198716676">Introduction</a></span></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Form Mail Script allows you to place many
+different kinds of forms on your website. Website visitors can fill in these
+forms and submit them. The script puts the data from the form in an e-mail
+(text and HTML) and sends them to a pre-defined e-mail address. The script also
+provides some security features to reduce the possibility of unauthorized use.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Once installed, you can access the script
+either directly by calling the URL to the script in your browser or by pointing
+to the script from an existing form on your website.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script is template driven which means
+you can fully customize the layout of the form page and the e-mail. You can run
+an unlimited number of forms with one script, send attachments and confirmation
+e-mails.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>List of features:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>HTML and plain text e-mails</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Unlimited forms</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>E-mail harvesting protection</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Upload files send as attachments</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Field validation with error
+messages</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Confirmation e-mail (auto responder)</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Log file</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Captcha</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>IP blocker</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Referrer check</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Redirect to a thanks page</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Redirect to an error page</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>E-mail preview</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Can be included by other PHP files</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The included default HTML template is
+written to the specifications of XHTML 1.0. Therefore, HTML tags like </span><span
+class=CodeChar><span lang=EN-US>&lt;br&gt;</span></span><span lang=EN-US> or </span><span
+class=CodeChar><span lang=EN-US>&lt;input&gt;</span></span><span lang=EN-US>
+contain an ending slash (</span><span class=CodeChar><span lang=EN-US>&lt;br
+/&gt;</span></span><span lang=EN-US> or </span><span class=CodeChar><span
+lang=EN-US>&lt;input type=&quot;text&quot; name=&quot;field&quot; /&gt;</span></span><span
+lang=EN-US>). If you are using an existing HTML form, you do not need to add
+the ending slash.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h1><a name="_Toc198716677"></a><a name="_Toc169280240"><span lang=EN-US>2<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Installation of the script</span></span></a></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script is almost ready to use. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716678"></a><a name="_Toc169280241"><span lang=EN-US>2.1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Step by Step</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Assuming that you already have unpacked the
+script files these step-by-step instructions</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 1</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Open the file /templates/mail.tpl.txt in a
+text editor. Enter your e-mail address in the head of the file where it says </span><span
+class=CodeChar><span lang=EN-US>To:</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>To: your-e-mail@example.com</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Replace </span><span class=CodeChar><span
+lang=EN-US>your-e-mail@example.com</span></span><span lang=EN-US> with your own
+e-mail address.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can also add your name, but it is
+important that you enclose the name by double quotes (&quot;) and the e-mail by
+angle quotes (&lt; and &gt;):</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>To: &quot;First name Last name&quot;
+&lt;your-e-mail@example.com&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can now save the file and close it.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 2</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Create a subfolder on your server (i.e.
+/mail/ or /contact/). Copy all script files into the new folder on your server.
+It is important that you upload all files, folders and sub-folders to your
+server. It is also important that the original file and folder structure
+remains intact. See also the chapter Upload the script to the server (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>2.3).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>After you have uploaded the files you can
+call the URL of the script in your browser, i.e.:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>http://www.example.com/contact/index.php</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script is now ready for you to test.
+Fill in the fields and send the form.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 4</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Check your e-mail account for new mails.
+You should be a bit patient. It may take a couple minutes until the e-mail
+arrives into your e-mail account.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Should you not receive any e-mails even
+after quite some time, start again with step 1 and try several different e-mail
+addresses.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In case that is not successful either, you
+should test if your server is capable of sending e-mails at all. Create a PHP
+file </span><span class=CodeChar><span lang=EN-US>mailtest.php</span></span><span
+lang=EN-US> with following content:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;?php</span></p>
+
+<p class=Code><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>mail('your-e-mail@example.com', 'Test Subject',
+'Test Message');</span></p>
+
+<p class=Code><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>?&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Upload that file to your server and call
+the URL of it in your browser. In the rare event that this does not work, you
+should contact your web host.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716679"><span lang=EN-US>2.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Include the Script</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can run the script as stand-alone and
+customize the layout using the HTML template. If that is the case, you can skip
+this chapter.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can include the script in other PHP files
+so that it fits into an existing website and matches the layout. Here is what
+you do:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 1</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can use the PHP statement </span><span
+class=CodeChar><span lang=EN-US>include</span></span><span lang=EN-US> to
+include the script at the very top (the first line of the file, above every
+other character, with no character in front of it) of the file:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;?php include 'index.php'; ?&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 2</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Go to the place in the file where you want
+the form to appear. Add following line of code:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;?php echo $f6l_output; ?&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>It is <span class=AbsatzberschriftChar>important
+</span>that you delete this line of code from the file </span><span
+class=CodeChar><span lang=EN-US>index.php</span></span><span lang=EN-US>.
+Otherwise the form will appear on top of your page. Look for this line at the
+bottom of the file </span><span class=CodeChar><span lang=EN-US>index.php</span></span><span
+lang=EN-US>:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>echo $f6l_output;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can also change it into a comment by
+adding two slashes in front of the line, like so:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>//echo $f6l_output;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Since you are including the script, you probably
+won’t need the HTML head structure. Just strip it from the HTML template
+form.tpl.html and leave everything between </span><span class=CodeChar><span
+lang=EN-US>&lt;body&gt;</span></span><span lang=EN-US> and </span><span
+class=CodeChar><span lang=EN-US>&lt;/body&gt;</span></span><span lang=EN-US>
+intact.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Done.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716680"></a><a name="_Toc169280242"></a><a
+name="_Ref169108253"><span lang=EN-US>2.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Upload the script to the server</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>All files have to be uploaded in text mode
+(ASCII mode) except for the font file(s) in the folder </span><span
+class=CodeChar><span lang=EN-US>/inc/font/</span></span><span lang=EN-US>. The
+font file </span><span class=CodeChar><span lang=EN-US>daft.ttf</span></span><span
+lang=EN-US> has to be transferred in binary mode. Most FTP programs have the
+option to set the mode to Automatic. With the mode set to Automatic you won’t
+have to worry about it.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716681"></a><a name="_Toc169280243"></a><a
+name="_Ref169108420"><span lang=EN-US>2.4<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>File and Folder Permissions</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Most, if not all, FTP programs allow you to
+change the file permissions. That can either be done with a command line and
+the command </span><span class=CodeChar><span lang=EN-US>chmod</span></span><span
+lang=EN-US> or with some clicks on menus and checkboxes. We have published a
+guide with examples of common FTP programs on our website.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US><a
+href="http://www.stadtaus.com/en/tutorials/chmod-ftp-file-permissions.php">http://www.stadtaus.com/en/tutorials/chmod-ftp-file-permissions.php</a></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h1><a name="_Toc198716682"></a><a name="_Toc169280244"><span lang=EN-US>3<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Set up and configuration</span></span></a></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In the script root folder (the folder that
+contains all the other folders like </span><span class=CodeChar><span
+lang=EN-US>/docu/</span></span><span lang=EN-US>, </span><span class=CodeChar><span
+lang=EN-US>/inc/</span></span><span lang=EN-US>, </span><span class=CodeChar><span
+lang=EN-US>/languages/</span></span><span lang=EN-US>, </span><span
+class=CodeChar><span lang=EN-US>/templates/</span></span><span lang=EN-US>
+etc.) you can find the file </span><span class=CodeChar><span lang=EN-US>index.php</span></span><span
+lang=EN-US>. That file is basically the configuration file. You can open the </span><span
+class=CodeChar><span lang=EN-US>index.php</span></span><span lang=EN-US> file
+in a text editor. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716683"></a><a name="_Toc169280245"><span lang=EN-US>3.1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Options in “index.php”</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$referring_server = '';</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable contains a comma separated
+list of domains that are allowed to link to the script.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$referring_server = 'www.example.com,
+example.com, 200.77.100.166';</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please note: Enter only domain names or IP
+addresses. Do not enter whole URLS or paths. There can’t be any </span><span
+class=CodeChar><span lang=EN-US>http://</span></span><span lang=EN-US> or
+slashes in there.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you forget to add your own domain or
+someone else is pointing to your form from another website, following error
+message will be displayed:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>Wrong or empty referrer (referring site)!</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Visitors who have a firewall software
+installed on their computer may also see get this error message because some
+firewalls block the referrer.  You can work around this by leaving the variable
+</span><span class=CodeChar><span lang=EN-US>$referring_server</span></span><span
+lang=EN-US> empty. This will disable the referrer check. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you do so, make sure you place your
+e-mail address directly in the e-mail template. This makes the script useless
+to spammers, because e-mail can only be sent to the address in the template.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$language</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable lets you choose the language
+the script will use for error messages. Take a look into the folder </span><span
+class=CodeChar><span lang=EN-US>/languages/</span></span><span lang=EN-US> in order
+to find out which languages are available.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$ip_banlist</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable can contain a comma separated
+list of IP addresses that want to ban from accessing the script. Be careful,
+many different users may use a single IP address. If you do not want to use
+this feature, just leave the variable empty.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$ip_address_count</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable lets you set the maximum
+number of e-mails that a user can send during one visit to your web site. Once
+this number is reached, the user will not be able to send another e-mail from
+your site until the next time he dial in to the Internet. The number 0 (null,
+zero) turns this function off. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>When you use this feature, the logging
+function is also turned on. This is necessary so that the script will be able
+to keep track of the IP addresses of the visitors that are sending mail from
+your web site. In order for this to work, the directory </span><span
+class=CodeChar><span lang=EN-US>/logfile/</span></span><span lang=EN-US>, and
+the file </span><span class=CodeChar><span lang=EN-US>/logfile/logfile.txt</span></span><span
+lang=EN-US> both must have their writable permissions set to </span><span
+class=CodeChar><span lang=EN-US>chmod 777</span></span><span lang=EN-US>. For
+more information about file and folder permissions see chapter File and Folder
+Permissions (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>2.4).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$ip_address_duration</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable sets the number of hours,
+from the time someone firsts sends an e-mail from your site, before they can
+send more e-mails. After the number of hours you set pass, the user can send
+e-mails from your site again.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$show_limit_errors</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable lets you decide if you want
+the script to show an error message, once the user has reached the maximum number
+of e-mails you have set.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$log_messages</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable lets you turn the logging
+function on or off. In order for this feature to work, the directory </span><span
+class=CodeChar><span lang=EN-US>/logfile/</span></span><span lang=EN-US>, and
+the file </span><span class=CodeChar><span lang=EN-US>/logfile/logfile.txt</span></span><span
+lang=EN-US> both must have their writable permissions set to: chmod 777. For
+more information about file and folder permissions see chapter File and Folder
+Permissions (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>2.4).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$text_wrap</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable sets the maximum number of
+character you want on a line in your e-mail. After this number is reached, a
+line break will automatically be added. If no value is defined, no line break
+will be added.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$show_error_messages</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable is initially set to </span><span
+class=CodeChar><span lang=EN-US>yes</span></span><span lang=EN-US>. This will
+let the script display you error messages during the configuration process.
+This will help you to install the script. After you have finished configuring
+the script, you should set this variable to </span><span class=CodeChar><span
+lang=EN-US>no</span></span><span lang=EN-US>. Do not leave it set to </span><span
+class=CodeChar><span lang=EN-US>yes</span></span><span lang=EN-US>. It is not
+wise to give visitors to your site a view into the workings of the script.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$attachment</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please find detailed instructions about
+file uploads and attachments in chapter Attachments (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>3.2.).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$captcha</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please find detailed instructions about
+file uploads and attachments in chapter Captcha (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>3.3).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$path['logfile']</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable contains the path to the log
+file.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$path['templates']</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable contains the path to the HTML
+and text mail template files. The path can be relative (</span><span
+class=CodeChar><span lang=EN-US>./templates/</span></span><span lang=EN-US> or </span><span
+class=CodeChar><span lang=EN-US>templates/</span></span><span lang=EN-US>) or absolute
+(</span><span class=CodeChar><span lang=EN-US>/usr/local/etc/httpd/.../form_mail/templates/</span></span><span
+lang=EN-US>). Please be sure to include the ending slash.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$file['default_html']</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you do not specify an HTML template in
+the form, this variable contains the file name of the HTML template that the
+script uses by default. The script will automatically use this template.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$file['default_mail']</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you do not specify a mail template in
+the form, this variable contains the file name of the mail template that the
+script uses by default. The script will automatically use this template.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$add_text</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can add further values, text, variables
+or other content to this variable. This content can then be displayed in both
+the HTML and mail template by using markers/placeholders within curly brackets
+{ and }. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you want to add your own values to the
+variable </span><span class=CodeChar><span lang=EN-US>$add_text</span></span><span
+lang=EN-US> please follow the pattern from the example entries. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$add_text = array(</span></p>
+
+<p class=Code><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>                    'txt_additional' =&gt;
+'Additional',</span></p>
+
+<p class=Code><span lang=EN-US>                    'txt_more'       =&gt;
+'More'</span></p>
+
+<p class=Code><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>                  );</span></p>
+
+<p class=MsoNormal><span lang=EN-US>           </span></p>
+
+<p class=MsoNormal><span lang=EN-US>The first part of each entry is the name of
+the placeholder. To use the value of </span><span class=CodeChar><span
+lang=EN-US>txt_addition</span></span><span lang=EN-US> in your template, place
+the name of the entry inside curly brackets. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Example: </span><span class=CodeChar><span
+lang=EN-US>{txt_addition}</span></span><span lang=EN-US>. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The name of an entry must not contain white
+spaces or special characters. Only the underscore (_) is allowed.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716684"></a><a name="_Toc169280246"></a><a
+name="_Ref169083553"><span lang=EN-US>3.2<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Attachments</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script allows you to send an arbitrary
+number of attachments. In order to be attached to an e-mail, a file would have
+to be uploaded by the form user beforehand. If you want to use this feature,
+please follow these steps:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 1</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Copy the file </span><span class=CodeChar><span
+lang=EN-US>form.tpl.html</span></span><span lang=EN-US> from the folder </span><span
+class=CodeChar><span lang=EN-US>/templates/example_upload_attachment/</span></span><span
+lang=EN-US> to the folder </span><span class=CodeChar><span lang=EN-US>/templates/</span></span><span
+lang=EN-US>. That will replace the </span><span class=CodeChar><span
+lang=EN-US>existing form.tpl.html</span></span><span lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The new </span><span class=CodeChar><span
+lang=EN-US>form.tpl.html</span></span><span lang=EN-US> contains following
+additional form field:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;file&quot;
+name=&quot;my_attachment&quot; /&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You are free to change the name of the
+field or to add more fields of the type </span><span class=CodeChar><span
+lang=EN-US>file</span></span><span lang=EN-US>. If you have more than one
+upload field, please make sure each field has a different name (</span><span
+class=CodeChar><span lang=EN-US>name=&quot;&quot;</span></span><span
+lang=EN-US>).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Furthermore, it is important that the HTML
+tag </span><span class=CodeChar><span lang=EN-US>&lt;form&gt;</span></span><span
+lang=EN-US> contains following attribute:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>enctype=&quot;multipart/form-data&quot;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>It would look like this:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;form action=&quot;{script_self}&quot;
+method=&quot;POST&quot; enctype=&quot;multipart/form-data&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Otherwise, the script won’t send the
+attachments.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The mail template does not require any
+changes.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 2</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please make sure that the folder </span><span
+class=CodeChar><span lang=EN-US>/temp/</span></span><span lang=EN-US> is
+writable (</span><span class=CodeChar><span lang=EN-US>chmod 777</span></span><span
+lang=EN-US>). For more information about file and folder permissions see
+chapter File and Folder Permissions (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>2.4).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Activate the attachment feature by setting
+the variable </span><span class=CodeChar><span lang=EN-US>$attachment = 'yes'</span></span><span
+lang=EN-US> in </span><span class=CodeChar><span lang=EN-US>index.php</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Done.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Following additional options can be set:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$attachment_files</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable contains a comma separated
+list of file types that are allowed to be sent as attachment.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please note: You should be very careful
+about what file types you allow for upload. Please bear in mind that in the end
+you will receive those files in your inbox.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$attachment_size</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This variable contains the maximum size of
+an attachment in bytes. The maximum attachment size is applied for each
+uploaded file. For example: You have set a maximum attachment size of </span><span
+class=CodeChar><span lang=EN-US>1024 Kbytes</span></span><span lang=EN-US> and
+have three upload fields. Each of the three uploaded files can be </span><span
+class=CodeChar><span lang=EN-US>1024 Kbytes</span></span><span lang=EN-US>
+which results in </span><span class=CodeChar><span lang=EN-US>3072 Kbytes</span></span><span
+lang=EN-US> for all three files together.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please note: Upload fields cannot be set as
+required fields.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Earlier versions of the script did not
+allow the combination of attachments and HTML formatted e-mails. As of version
+3.2 this is no longer the case.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716685"></a><a name="_Toc169280247"></a><a
+name="_Ref169083645"><span lang=EN-US>3.3<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Captcha</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The Captcha feature displays an image with
+a string of characters. In order to prove that the visitor is not an automatic
+spam program, he has to enter the characters shown in the image into a form
+field. In case both strings match the comment will be accepted.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Note: The Captcha feature requires GD2
+library and Freetype to be installed on the server which is the case on most
+servers. Otherwise, an error message will be displayed or the image dos not
+contain any text.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In order to use this feature, follow these
+steps:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 1</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Copy the file form.tpl.html from the folder
+</span><span class=CodeChar><span lang=EN-US>/templates/example_captcha/</span></span><span
+lang=EN-US> to the folder </span><span class=CodeChar><span lang=EN-US>/templates/</span></span><span
+lang=EN-US>. That will replace the existing </span><span class=CodeChar><span
+lang=EN-US>form.tpl.html</span></span><span lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The new </span><span class=CodeChar><span
+lang=EN-US>form.tpl.html</span></span><span lang=EN-US> contains following
+additional lines:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{txt_captcha_note}</span></p>
+
+<p class=Code><span lang=EN-US>&lt;br /&gt;&lt;br /&gt;</span></p>
+
+<p class=Code><span lang=EN-US>{captcha_content}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The placeholder </span><span
+class=CodeChar><span lang=EN-US>{txt_captcha_note}</span></span><span
+lang=EN-US> contains the instructions for the user. The placeholder </span><span
+class=CodeChar><span lang=EN-US>{captcha_content}</span></span><span
+lang=EN-US> will be replaced by the HTML code of the Captcha image and the form
+field.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 2</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please make sure that the folder </span><span
+class=CodeChar><span lang=EN-US>/temp/</span></span><span lang=EN-US> is
+writable (</span><span class=CodeChar><span lang=EN-US>chmod 777</span></span><span
+lang=EN-US>). For more information about file and folder permissions see
+chapter File and Folder Permissions (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>2.4).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Activate the Captcha image by setting the
+variable </span><span class=CodeChar><span lang=EN-US>$captcha = 'yes'</span></span><span
+lang=EN-US> in </span><span class=CodeChar><span lang=EN-US>index.php</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Done.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please note: Even though the Captcha
+feature prevents the form from being automatically submitted, there are enough
+spammers who work the form manually. Therefore, it is possible that you still
+receive spam messages send by the form.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Though the Captcha feature is fully
+functioning, it has some limitations. Currently, there is no way to control
+color or size of the box or of the letters.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716686"></a><a name="_Toc169280248"><span lang=EN-US>3.3.1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Send E-mails with SMTP</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you don’t know whether you should use
+SMTP, skip this chapter. Using SMTP is only necessary, if the internal PHP
+function mail() cannot be used (i.e. on a Windows server).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In order to send e-mails using SMTP you
+need an e-mail account (Pop3).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 1</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Open the file </span><span class=CodeChar><span
+lang=EN-US>/inc/formmail.inc.php</span></span><span lang=EN-US> in a text
+editor and look for this part:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['mail_type']     = 'mail'; //
+(mail, smtp)</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['mail_from']     = 'postmaster@'
+. $_SERVER['SERVER_NAME'];</span></p>
+
+<p class=Code><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['host']  = 'example.com';</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['port']  = 25;</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['helo']  =
+$_SERVER['SERVER_NAME'];</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['auth']  = true;</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['user']  = '';</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['pass']  = '';</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 2</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Replace</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['mail_type']     = 'mail';</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>with</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['mail_type']     = 'smtp';</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Step 3</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Replace the host name </span><span
+class=CodeChar><span lang=EN-US>example.com</span></span><span lang=EN-US> with
+the host name of your e-mail account.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['host']  = 'example.com';</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>4. Schritt</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Enter here the user name and password of
+your e-mail account.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['user']  = '';</span></p>
+
+<p class=Code><span lang=EN-US>$configuration['smtp']['pass']  = '';</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Absatzberschrift><span lang=EN-US>Done</span></p>
+
+<p class=MsoNormal><span lang=EN-US>.</span></p>
+
+<h1><a name="_Toc198716687"></a><a name="_Toc169280249"><span lang=EN-US>4<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>HTML template customization - /templates/form.tpl.html</span></span></a></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The folder </span><span class=CodeChar><span
+lang=EN-US>/templates/</span></span><span lang=EN-US> contains the files that
+determine the layout of your page. You can use HTML and CSS to customize the
+layout as you wish.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you are using a WYSIWYG editor like
+Dreamweaver, Frontpage or NetObjects, please make sure that the software does
+not make any changes by itself.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The subfolder </span><span class=CodeChar><span
+lang=EN-US>/examples/</span></span><span lang=EN-US> contains additional HTML
+forms. You can use them as examples for creating your own forms.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The folder </span><span class=CodeChar><span
+lang=EN-US>/templates/</span></span><span lang=EN-US> contains an .htaccess
+file to protect your template files from being accessed via browser. Only the
+script and you (via FTP) have access to the template files.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Once you have finished working on the HTML
+templates it is advised to run the script (not the HTML template – the whole
+script) through the HTML validator of the W3 consortium. The validator helps
+you find improper coded HTML that may prevent the script from working.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US><a href="http://validator.w3.org/">http://validator.w3.org/</a></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please note: Changing the extension of the
+template file from .html to .php has no effect. The file will not be recognized
+as a PHP file and therefore no PHP code will be parsed. Actually, the extension
+doesn’t matter. It could be .html, .txt, .tpl, php or no extension at all. If
+you want to include PHP code in the template, please use the include feature
+(chapter <span lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>4.4).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716688"></a><a name="_Toc169280251"><span lang=EN-US>4.1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Form Fields</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>For each form field the script will
+automatically create a placeholder with the same name as the form field. That
+comes in handy If an error occurs (i.e. the user forgot to fill in a required
+field) and the form appears again, the script can pre-populate the form fields
+so the user doesn’t have to fill in all fields again. For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;text&quot;
+name=&quot;lastname&quot; value=&quot;{lastname}&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script will replace </span><span
+class=CodeChar><span lang=EN-US>{lastname}</span></span><span lang=EN-US> with
+the value that the user entered before he submitted the form.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can add as many fields to a form or
+change the fields of the example forms that come with the script. Please make
+sure that the field names and the placeholder names do not contain white
+spaces, or special characters. They may have underscores (</span><span
+class=CodeChar><span lang=EN-US>first_name</span></span><span lang=EN-US>), though.
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716689"></a><a name="_Toc169280261"><span lang=EN-US>4.1.1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Select Menus</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script can process select menus like
+following: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;select name=&quot;&quot;
+size=&quot;&quot;&gt;</span></p>
+
+<p class=Code><span lang=EN-US>  &lt;option
+value=&quot;&quot;&gt;&lt;/option&gt;</span></p>
+
+<p class=Code><span lang=EN-US>  &lt;option
+value=&quot;&quot;&gt;&lt;/option&gt;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;/select&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script can also process multiple select
+fields. You can find an example in the HTML template </span><span
+class=CodeChar><span lang=EN-US>/templates/example_multiples/form.tpl.html</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In order to make sure that the user’s
+selection appears after submitting the form for preview, you can use a special
+placeholder.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;select name=&quot;Salutation&quot;
+size=&quot;2&quot;&gt;</span></p>
+
+<p class=Code><span lang=EN-US>  &lt;option value=&quot;Mr&quot;
+{select:Salutation=Mr}&gt;Mr&lt;/option&gt;</span></p>
+
+<p class=Code><span lang=EN-US>  &lt;option value=&quot;Ms&quot;
+{select:Salutation=Ms}&gt;Ms&lt;/option&gt;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;/select&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The placeholder </span><span
+class=CodeChar><span lang=EN-US>{select:Salutation=Ms}</span></span><span
+lang=EN-US> consists of the following elements. In the first position is the
+type of form field you are using. In this case it is a select menu (= </span><span
+class=CodeChar><span lang=EN-US>select</span></span><span lang=EN-US>). After
+that follows a colon (</span><span class=CodeChar><span lang=EN-US>:</span></span><span
+lang=EN-US>). In the second position is the name of the form field. In the
+example above that is </span><span class=CodeChar><span lang=EN-US>Salutation</span></span><span
+lang=EN-US>. After that an equal sign (</span><span class=CodeChar><span
+lang=EN-US>=</span></span><span lang=EN-US>) follows. At the last position
+comes the value of the option tag (</span><span class=CodeChar><span
+lang=EN-US>value=&quot;&quot;</span></span><span lang=EN-US>).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>To make the selected value appear within
+the mail template, you need to enter the field name surrounded by curly
+brackets </span><span class=CodeChar><span lang=EN-US>{ }</span></span><span
+lang=EN-US> in the mail template, i.e. </span><span class=CodeChar><span
+lang=EN-US>{Salutation}</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In case a user did not select one of the
+options the script removes the placeholder from the mail template. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you want a select field to be a required
+field and you have listed it in the </span><span class=CodeChar><span
+lang=EN-US>required_fields</span></span><span lang=EN-US> form field, the first
+option of the list has to have an empty value. Otherwise the script will not
+show an error.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;select name=&quot;Salutation&quot;
+size=&quot;2&quot;&gt;</span></p>
+
+<p class=Code><span lang=EN-US>  &lt;option value=&quot;&quot;&gt;Please
+select&lt;/option&gt;</span></p>
+
+<p class=Code><span lang=EN-US>  &lt;option value=&quot;Mr&quot;
+{select:Salutation=Mr}&gt;Mr&lt;/option&gt;</span></p>
+
+<p class=Code><span lang=EN-US>  &lt;option value=&quot;Ms&quot;
+{select:Salutation=Ms}&gt;Ms&lt;/option&gt;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;/select&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can find more examples in the template </span><span
+class=CodeChar><span lang=EN-US>/examples/advanced_form.tpl.html</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716690"></a><a name="_Toc169280262"><span lang=EN-US>4.1.2<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Checkboxes</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script can process checkbox fields like
+following: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;checkbox&quot;
+name=&quot;&quot; value=&quot;&quot; /&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script can also process multiple
+checkbox fields. You can find an example in the HTML template </span><span
+class=CodeChar><span lang=EN-US>/templates/example_multiples/form.tpl.html</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In order to make sure that the user’s
+selection appears after submitting the form for preview, you can use a special
+placeholder.</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;checkbox&quot;
+name=&quot;Newsletter&quot; value=&quot;Yes&quot; {checkbox:Newsletter=Yes}
+/&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The placeholder </span><span
+class=CodeChar><span lang=EN-US>{checkbox:Newsletter=Yes}</span></span><span
+lang=EN-US> consists of following elements. In the first position is the type
+of form field you are using. In this case it is a checkbox field (= </span><span
+class=CodeChar><span lang=EN-US>checkbox</span></span><span lang=EN-US>). After
+that a colon (</span><span class=CodeChar><span lang=EN-US>:</span></span><span
+lang=EN-US>) follows. In the second position is the name of the form field. In
+the example above that is </span><span class=CodeChar><span lang=EN-US>Newsletter</span></span><span
+lang=EN-US> After that follows an equal sign (</span><span class=CodeChar><span
+lang=EN-US>=</span></span><span lang=EN-US>). In the last position is the value
+of the option tag (</span><span class=CodeChar><span lang=EN-US>value=&quot;&quot;</span></span><span
+lang=EN-US>).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In order for the selected value to appear
+in the mail template, you need to enter the name surrounded by curly brackets </span><span
+class=CodeChar><span lang=EN-US>{ }</span></span><span lang=EN-US> in the mail
+template, i.e. </span><span class=CodeChar><span lang=EN-US>{checkbox:Newsletter}</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can find more examples in the template </span><span
+class=CodeChar><span lang=EN-US>/examples/advanced_form.tpl.html</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716691"></a><a name="_Toc169280263"><span lang=EN-US>4.1.3<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Radio Buttons</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script can process radio button fields
+like following: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;radio&quot; name=&quot;
+&quot; value=&quot;&quot; /&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In order to make sure that the user’s
+selection appears after submitting the form for preview, you can use a special
+placeholder.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;radio&quot;
+name=&quot;Salutation&quot; value=&quot;Mr&quot; {radiobutton:Salutation=Ms}
+/&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The placeholder </span><span
+class=CodeChar><span lang=EN-US>{radiobutton:Salutation=Ms}</span></span><span
+lang=EN-US> consists of the following elements. In the first position is the
+type of form field you are using. In this case it is a radio button field (= </span><span
+class=CodeChar><span lang=EN-US>radiobutton</span></span><span lang=EN-US>).
+After that follows a colon (</span><span class=CodeChar><span lang=EN-US>:</span></span><span
+lang=EN-US>). In the second position is the name of the form field. In the
+example above that is </span><span class=CodeChar><span lang=EN-US>Salutation</span></span><span
+lang=EN-US>. After that follows an equal sign (</span><span class=CodeChar><span
+lang=EN-US>=</span></span><span lang=EN-US>). In the last position is the value
+of the option tag (</span><span class=CodeChar><span lang=EN-US>value=&quot;&quot;</span></span><span
+lang=EN-US>).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In order to make the selected value appear
+in the mail template, you need to enter the name surrounded by curly brackets -
+</span><span class=CodeChar><span lang=EN-US>{ }</span></span><span lang=EN-US>
+- in the mail template, i.e. </span><span class=CodeChar><span lang=EN-US>{Salutation}</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can find more examples in the template </span><span
+class=CodeChar><span lang=EN-US>/examples/advanced_form.tpl.html</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716692"></a><a name="_Toc169280252"><span lang=EN-US>4.1.4<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Required Form Fields</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Every form field can be marked as a required
+field. This means that the e-mail will not be sent until these fields are
+filled in. Enter a comma separated list of field names that you want to be
+required into a hidden form field with the name </span><span class=CodeChar><span
+lang=EN-US>required_fields</span></span><span lang=EN-US>. For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;required_fields&quot; value=&quot;lastname, email, subject&quot;
+/&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This will make the form fields </span><span
+class=CodeChar><span lang=EN-US>lastname</span></span><span lang=EN-US>, </span><span
+class=CodeChar><span lang=EN-US>email</span></span><span lang=EN-US> and </span><span
+class=CodeChar><span lang=EN-US>subject</span></span><span lang=EN-US> required
+fields.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716693"></a><a name="_Toc169280253"><span lang=EN-US>4.1.5<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>E-mail Syntax</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Like the required fields you can define
+fields that you want to be checked for correct e-mail syntax. Enter a comma
+separated list of field names that you want to be checked in a hidden form with
+the name </span><span class=CodeChar><span lang=EN-US>email_fields</span></span><span
+lang=EN-US>. For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;email_fields&quot; value=&quot;email_1, email_2&quot; /&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716694"><span lang=EN-US>4.1.6<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Compare Two or More Fields</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script allows you to compare the
+content of two or more fields. An error message will be displayed if the
+content is not identical. Possible use would be for confirming an e-mail
+address or password. Put following hidden field to your form:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;compare_fields[]&quot; value=&quot;email, confirm_email&quot; /&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The line above would tell the script to
+test whether the fields </span><span class=CodeChar><span lang=EN-US>email</span></span><span
+lang=EN-US> and </span><span class=CodeChar><span lang=EN-US>confirm_email </span></span><span
+lang=EN-US>contain the same value.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The number of different sets of fields the
+script can check is not limited.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;compare_fields[]&quot; value=&quot;email, confirm_email&quot; /&gt;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;compare_fields[]&quot; value=&quot;password, confirm_password&quot;
+/&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716695"></a><a name="_Toc169280254"><span lang=EN-US>4.2<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Advanced Error Messages</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If a required field has not been filled in by
+the user, an error message will be displayed above the form fields. This is the
+default setting.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script allows you to display error
+messages right beside, above or below a form field. Moreover, the script allows
+you to alter the appearance of the form field label. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This screenshot shows how that could look
+like:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US><img border=0 width=372 height=533
+src="image/image001-en.gif"></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can see both the default message above
+the form and the advanced error messages that show up above each form field.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In order to implement advanced error
+messages, following three placeholders are available: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{required:fieldname='Error message':endrequired}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{syntax:fieldname='Error message':endsyntax}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{error:fieldname='Default text'||='Error
+message':enderror}</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<h3><a name="_Toc198716696"></a><a name="_Toc169280255"><span lang=EN-US>4.2.1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>{required:fieldname='Error message':endrequired}</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Let us suppose you have a field </span><span
+class=CodeChar><span lang=EN-US>last_name</span></span><span lang=EN-US> and
+you define it as required field. You can use following variable for the error
+message: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{required:last_name='Please enter your last name.':endrequired}
+</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In case the visitor has not filled in the
+field, the variable will be replaced with the error message: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please enter your last name. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You could format the error text using CSS: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{required:last_name='&lt;span
+style=&quot;font-weight:bold;color:#FF0000;&quot;&gt;Please enter your last
+name.&lt;/span&gt;':endrequired} </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The error text now appears in bold font and
+in red color: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716697"></a><a name="_Toc169280256"><span lang=EN-US>4.2.2<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>{syntax:fieldname='Error message':endsyntax}</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Let us suppose you have a field </span><span
+class=CodeChar><span lang=EN-US>email</span></span><span lang=EN-US> and you
+define it as e-mail syntax field. You can use following variable for the error
+message: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{syntax:email='Please enter a valid e-mail
+address.':endsyntax} </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>In case the visitor has not filled in the
+field correctly, the variable will be replaced with the error message: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please enter a valid e-mail address. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You could format the error text using CSS: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{syntax:email='&lt;span
+style=&quot;font-weight:bold;color:#FF0000;&quot;&gt;Please enter a valid
+e-mail address.&lt;/span&gt;':endsyntax} </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The error text now appears in bold font and
+in red color.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h3><a name="_Toc198716698"></a><a name="_Toc169280257"><span lang=EN-US>4.2.3<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>{error:fieldname='Default text'||='Error
+message':enderror}</span></span></a></h3>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can use following variable if you want
+to change the appearance of the form field label. Let us suppose you have a
+field </span><span class=CodeChar><span lang=EN-US>subject</span></span><span
+lang=EN-US> and you define it as required field. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can use following variable in order to
+change the appearance of the label: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{error:subject='Subject'||='&lt;span
+style=&quot;color:#FF0000;&quot;&gt;Subject&lt;/span&gt;.':enderror} </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Without an error the first part (everything
+before the two vertical lines - pipes) will be displayed. In case the visitor
+has not filled in  the field, the variable will be replaced with the second
+part: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>For a better understanding you could take a
+look at the example in the folder </span><span class=CodeChar><span lang=EN-US>/templates/examples_error_messages/</span></span><span
+lang=EN-US>. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716699"></a><a name="_Toc169280258"><span lang=EN-US>4.3<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Thank You Page</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>After the form has been submitted the user
+will be presented with a confirmation message and the data he just entered in
+the form. You can change this and let the user be redirected to a special
+thanks page. You can define the URL of that page in a hidden form field with
+the name </span><span class=CodeChar><span lang=EN-US>thanks</span></span><span
+lang=EN-US>. For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;thanks&quot; value=&quot;http://www.example.com/thanks.html&quot;
+/&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please enter the whole URL including
+http:// and the domain name (i.e.: http://www.example.com/).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you don't define this field or leave it
+empty the script displays the data entered by the user.<a name="_Toc169280250">
+</a></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716700"></a><a name="_Ref169281847"><span lang=EN-US>4.4<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Include Files</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script allows you to include files
+directly into the HTML template files. It makes no difference whether you want
+to include PHP, HTML or other text files. For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;INCLUDE FILENAME=&quot;header.php&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script automatically replaces this line
+with the content of the file </span><span class=CodeChar><span lang=EN-US>header.php</span></span><span
+lang=EN-US>. Please pay attention that relative paths (</span><span
+class=CodeChar><span lang=EN-US>../</span></span><span lang=EN-US> etc.) start
+at the main directory of the script (same level as the </span><span
+class=CodeChar><span lang=EN-US>index.php</span></span><span lang=EN-US> file).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you use absolute paths (path starts with
+slash), the path starts at the www root folder of your web account by default.
+For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US> /logs/</span></p>
+
+<p class=Code><span lang=EN-US> /images/</span></p>
+
+<p class=Code><span lang=EN-US> /layout/</span></p>
+
+<p class=Code><span lang=EN-US> /layout/header.php</span></p>
+
+<p class=Code><span lang=EN-US> /form_mail/</span></p>
+
+<p class=Code><span lang=EN-US> /form_mail/templates/</span></p>
+
+<p class=Code><span lang=EN-US> /form_mail/templates/form.tpl.html</span></p>
+
+<p class=Code><span lang=EN-US> /form_mail/index.php</span></p>
+
+<p class=MsoNormal><span lang=EN-US> </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Let us assume that you want to include the
+file </span><span class=CodeChar><span lang=EN-US>header.php</span></span><span
+lang=EN-US> into the file </span><span class=CodeChar><span lang=EN-US>form.tpl.html</span></span><span
+lang=EN-US>. If you use a relative path, you need to start at the same level as
+the file </span><span class=CodeChar><span lang=EN-US>index.php</span></span><span
+lang=EN-US> is:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;INCLUDE
+FILENAME=&quot;../layout/header.php&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you want to use an absolute path, you
+need to write your path starting at the www root folder:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;INCLUDE
+FILENAME=&quot;/layout/header.php&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can find examples about including in
+the folder </span><span class=CodeChar><span lang=EN-US>/templates/examples_includes/</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716701"><span lang=EN-US>4.5<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Ad Link Format</span></span></a></h2>
+
+<p class=Code><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can use CSS to format and position the
+link. You can address the link using the CSS id </span><span class=CodeChar><span
+lang=EN-US>poweredby</span></span><span lang=EN-US>. The HTML template </span><span
+class=CodeChar><span lang=EN-US>form.tpl.html</span></span><span lang=EN-US>
+contains following section in the head part:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;style type=&quot;text/css&quot;&gt;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;!--</span></p>
+
+<p class=Code><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>  #poweredby {</span></p>
+
+<p class=Code><span lang=EN-US>      text-align:center;</span></p>
+
+<p class=Code><span lang=EN-US>      margin-top:30px;</span></p>
+
+<p class=Code><span lang=EN-US>  }</span></p>
+
+<p class=Code><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>--&gt;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;/style&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This CSS code centers the link and puts a
+margin of 30 pixels above it.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716702"></a><a name="_Toc169280259"><span lang=EN-US>4.6<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Define HTML Template</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you are calling the script from an
+existing form in a HTML page and you do not want to use the default HTML file,
+you can define a different HTML file in a hidden form field with the name </span><span
+class=CodeChar><span lang=EN-US>html_template</span></span><span lang=EN-US>.
+For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;html_template&quot; value=&quot;form.tpl.html&quot; /&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716703"></a><a name="_Toc169280260"><span lang=EN-US>4.7<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Define Mail Template</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The mail template can be defined the same
+way. You have the option to define a single mail template. For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot; name=&quot;mail_template&quot;
+value=&quot;mail.tpl.txt&quot; /&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can also define more than one mail
+template. Each of these templates can contain different recipients and content.
+For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;mail_template&quot; value=&quot;mail.tpl.txt, mail2.tpl.txt&quot;
+/&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please note: This is the way to set up a
+confirmation e-mail (auto responder). Read more about that in the chapter Auto
+Responder – Confirmation e-mail (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>5.3).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h1><a name="_Toc198716704"></a><a name="_Toc169280264"><span lang=EN-US>5<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>E-mail Template Customization - /templates/mail.tpl.txt</span></span></a></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716705"></a><a name="_Toc169280265"><span lang=EN-US>5.1<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Mail Header</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>At the top of the mail template you can
+find the lines of the mail header. For example: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Recipient           To:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Sender              From:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Subject             Subject:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Carbon Copy         CC:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Blind Carbon Copy   BCC:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>    </span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can define the recipient of an e-mail like
+this:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>To: name@example.com</span></p>
+
+<p class=MsoNormal><span lang=EN-US>    </span></p>
+
+<p class=MsoNormal><span lang=EN-US>In addition, you can add several recipients
+with carbon copy and blind carbon copy: </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>Cc: mail@example.com, chef@example.com</span></p>
+
+<p class=Code><span lang=EN-US>Bcc: secret@example.com</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Please note: If you have set your e-mail
+account as “Catch all”, you can not send more than one e-mail to one domain. If
+more than one e-mail is sent to a domain, only one will be received. The
+following example will not work:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>To: name@example.com</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Cc: chef@company.com </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can define the sender within the mail
+template. For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>From: chef@example.com</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can also use information from the form.
+For example:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>From: {email}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>    </span></p>
+
+<p class=MsoNormal><span lang=EN-US>You also can add the name of the sender. In
+this case the name is followed by the e-mail address which stands between angle
+brackets. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>From: &quot;{firstname} {lastname}&quot;
+&lt;{email}&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>    </span></p>
+
+<h2><a name="_Toc198716706"></a><a name="_Toc169280266"><span lang=EN-US>5.2<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Mail Body</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>After the e-mail head area (header) an
+empty line (two line breaks) follows. Below that line follows the mail content.
+You can customize the mail content as you like. If you add fields to your form,
+you will also need to place the name of those fields as placeholders in the
+mail template. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Make sure that the names of the fields in
+your form are identical to the placeholders in your mail template.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716707"></a><a name="_Ref171754325"><span lang=EN-US>5.3<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Auto Responder – Confirmation e-mail</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can create an auto responder message to
+the person who submitted the form by creating another mail template. The To:
+line of the new template contains – instead of your own e-mail address – the
+e-mail address that the user supplied. You can find an example in the </span><span
+class=CodeChar><span lang=EN-US>/templates/examples/mail_auto_responder.tpl.txt</span></span><span
+lang=EN-US>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The definition of the mail template looks
+like this:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>&lt;input type=&quot;hidden&quot;
+name=&quot;mail_template&quot; value=&quot;mail.tpl.txt,
+mail_auto_responder.tpl.txt&quot;&gt;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The definition in index.php:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>$file['default_mail']  = 'mail.tpl.txt,
+mail_auto_responder.tpl.txt ';</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716708"></a><a name="_Toc169280267"><span lang=EN-US>5.4<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Display all form data with one placeholder</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You can display all form data with just one
+placeholder. Add following placeholder to the e-mail template:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{all_content}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>    </span></p>
+
+<p class=MsoNormal><span lang=EN-US>If you have your mail template formatted as
+HTML e-mail, you can use following placeholder.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{all_content_table}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>This placeholder shows all form field
+values structured in an HTML table.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h2><a name="_Toc198716709"></a><a name="_Toc169280268"><span lang=EN-US>5.5<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=LTR><span lang=EN-US>Environment variables and server date and time</span></span></a></h2>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The following environment variables are
+provided by Form Mail Script. In order to make these variables appear in an
+e-mail you need to put following placeholders in your template:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_user_agent}</span></span><span
+lang=EN-US>                   Browser software of the user (Mozilla, Netscape,
+Opera, Internet Explorer)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_remote_address}</span></span><span
+lang=EN-US>         IP-Address of the user </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_remote_host}</span></span><span
+lang=EN-US>                            Host name of the user</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_year}</span></span><span
+lang=EN-US>                                  Year </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_month}</span></span><span
+lang=EN-US>                               Month </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_day}</span></span><span
+lang=EN-US>                                    Day     </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_hour}</span></span><span
+lang=EN-US>                                  Hour </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_minute}</span></span><span
+lang=EN-US>                                         Minutes </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=CodeChar><span lang=EN-US>{env_second}</span></span><span
+lang=EN-US>                                         Seconds </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h1><a name="_Toc198716710"></a><a name="_Toc169280269"><span lang=EN-US>6<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Language files</span></span></a></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The template files contain markers with {
+and } like: </span><span class=CodeChar><span lang=EN-US>{txt_preview}</span></span><span
+lang=EN-US>. These markers will be replaced by its counterparts from the
+language file </span><span class=CodeChar><span lang=EN-US>/languages/language.en.inc.php</span></span><span
+lang=EN-US>. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>You are free to edit that file and change
+the words and phrases. You can even add HTML code in order to format the text.
+You are also free to replace the markers in the template files with real words,
+or to put those markers in other positions within the template file. You can
+also enhance the language file using the given pattern. </span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The following placeholders are not included
+in the language file and should not be changed.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Code><span lang=EN-US>{message}</span></p>
+
+<p class=Code><span lang=EN-US>{fields}</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>On a side note: If you have translated a
+file into your language, it would be awful nice if you could send us the translated
+file. Thanks in advance :-)</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h1><a name="_Toc198716711"></a><a name="_Toc169280270"><span lang=EN-US>7<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>The Log File - log/logfile.txt</span></span></a></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The folder </span><span class=CodeChar><span
+lang=EN-US>/logfile/</span></span><span lang=EN-US> and the file </span><span
+class=CodeChar><span lang=EN-US>logfile.txt</span></span><span lang=EN-US> must
+be writeable (chmod 777). For more information about file and folder
+permissions see chapter File and Folder Permissions (<span
+lang=AR-SA style='font-family:"Times New Roman"'>&#8206;</span>2.4).</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The folder </span><span class=CodeChar><span
+lang=EN-US>/logfile/</span></span><span lang=EN-US> contains an .htaccess file
+to protect your log file from being accessed via browser. Only the script and
+you (via FTP) have access to the log file.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h1><a name="_Toc198716712"></a><a name="_Toc169280271"><span lang=EN-US>8<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Support</span></span></a></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>For the answers to your questions about
+Form Mail Script, and for the solutions to your problems with Form Mail Script,
+visit our support forum.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span class=MsoHyperlink><span lang=EN-US>http://www.stadtaus.com/forum/</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<h1><a name="_Toc198716713"></a><a name="_Toc169280272"><span lang=EN-US>9<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>License Information</span></span></a></h1>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>The script is free for private usage and
+non-profit organizations. The free version requires the ad link. If you want to
+use the script without the ad link, you need to purchase a license.</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Purchasing a license is also required for:</span></p>
+
+<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Companies</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Websites with ads or any other
+revenue stream</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR><span lang=EN-US>Adult websites</span></span></p>
+
+<p class=Aufzhlung><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=EN-US>Once you have purchased a license, we will
+send you a new license file which will replace the existing config.dat.php file
+in the folder /inc/. The new file removes the ad link, but does not interfere
+with the changes you have made to the script. You don’t have to start over.</span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+<?php
+$page_title = 'Railings for Commercial Locations';
+include ('./header.inc');
+?>
+<?php include("./edit/blocks/commercial.html"); ?>
+<?php
+include ('./footer.inc');
+?>

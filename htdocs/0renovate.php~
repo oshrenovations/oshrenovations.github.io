@@ -1,0 +1,8 @@
+<?php
+$page_title = 'Commercial Residential Railings';
+include ('./header.inc');
+?>
+<?php include("./edit/blocks/commercial_res.html"); ?>
+<?php
+include ('./footer.inc');
+?>

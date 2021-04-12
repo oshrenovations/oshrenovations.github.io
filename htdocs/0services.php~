@@ -1,0 +1,8 @@
+<?php
+$page_title = 'Railings';
+include ('./header.inc');
+?>
+<?php include("./edit/blocks/railing.html"); ?>
+<?php
+include ('./footer.inc');
+?>

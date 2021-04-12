@@ -1,0 +1,18 @@
+/* Created by: Keith Mastin copyright 2010 */
+H1 {
+font-family: Arial
+}
+
+H2 {
+font-family: Arial
+}
+
+P {
+font-family: Arial, Helvetica
+font-size: 12px
+}
+
+/* .style4 {
+ font-size: medium;
+ font-weight: bold;
+ } */

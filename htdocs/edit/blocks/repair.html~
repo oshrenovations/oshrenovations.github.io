@@ -1,0 +1,41 @@
+				<p style="text-align: center; ">
+					<span style="font-family:arial,helvetica,sans-serif;"><b>Repairs</b>
+					</span>
+				</p>
+
+<table align="center" border="0" cellpadding="10" cellspacing="4" style="width: 80%; ">
+	<tbody>
+		<tr>
+			<td>
+				<img alt="Adding a dormer" src="./img/repairs.jpg" style="cursor: default; margin-left: 10px; margin-right: 10px; float: right; width: 200px; " />
+			</td>
+			<td style="text-align: justify; " valign="bottom">
+				<p style="text-align: justify; ">
+					<span style="font-family:arial,helvetica,sans-serif;"><b>Major Renovations</b> which include retro refitting to match the color and style of your existing home is part technical, part craftsmanship, and above all, part artwork.</span>
+				</p>				
+				<p style="text-align: justify; "> 
+					<span style="font-family:arial,helvetica,sans-serif;"><b>Kitchens and Bathrooms:</b> <nbsp>Designing a kitchen or bathroom remodel is not as simple as it seems. Taking care of the details for you and finishing to the point of passing final inspection is the mainstay of the business</span>
+				</p>
+				<p style="text-align: justify; ">
+					<span style="font-family:arial,helvetica,sans-serif;"><b>Windows and doors:</b> <nbsp> are not always simple drop-in replacements. For example, adding french doors or re-sizing a window requires structural knowledge; stairs and railings have their own code, as do plumbing and electrical work. Working within the code means you will never have a problem related to your renovations.</span>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img alt="Drywalling a new room" src="./img/electrical.jpg" style="cursor: default; margin-left: 10px; margin-right: 10px; float: right; width: 200px; " />
+			</td>
+			<td valign="top">
+				<p style="text-align: justify; ">
+					<span style="font-family:arial,helvetica,sans-serif;"><b>Structural Changes:</b> <nbsp>Moving walls, opening up rooms or adding living space all require knowledge of building codes that protect you from unforeseen circumstances.</span>
+				</p>
+				<p style="text-align: justify; ">
+					<span style="font-family:arial,helvetica,sans-serif;"><b>Roofing</b> is best carried out by 3rd party companies who are roofing specialists; however I will oversee their level of craftsmanship and ensure that they employ best practices.</span>
+				</p>
+				<p style="text-align: justify; ">
+					<span style="font-family:arial,helvetica,sans-serif;"><b>Landscaping and Curb Appeal</b> are increasingly popular as neigborhoods evolve. Front decks, porches or walkways, plant, flowers or shrubbery as well as building color and themes are all important aspects of raising curb appeal. I have a consultant who will listen to your needs and desires and make recommendations based on these.</span>
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>

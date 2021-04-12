@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- Created by Keith Mastin copyright 2010 -->
+<html>
+	<head>
+		<meta name="author" content="Keith Mastin" >
+		<meta name="generator" content="screem 0.16.1" >
+		<meta name="description" content="Old School Handyman Renovations Website" >
+		<meta name="keywords" content="" >
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" >
+		<meta http-equiv="Content-Script-Type" content="text/javascript" >
+		<meta http-equiv="Content-Style-Type" content="text/css" >
+		<link rel="stylesheet" type="text/css" href="prairie.css">
+		<style>	@ import url("oshr.css");
+			@ import url("styles.css");
+		</style>
+		<script type="text/javascript" src="menu.js"></script>
+		<title><?php echo $page_title; ?></title>
+</head>
+
+<body link="#47248c" text="#1B2860" bgColor="#E5E5E5" ONLOAD="javascript:window.open('./mail/email_us.php', 'Email Us', 'HEIGHT=600, WIDTH=900, SCROLLBARS=yes, RESIZE=yes')">
+<table width="100%" border="0" align="center" cellspacing="4" cellpadding="1">
+	<tr>
+		<td colspan="4">
+			<ul id="dd">
+			  <li><a href="./index.php" class="menu" id="mmenu0" 
+			      onmouseover="mopen(0);"
+			      onmouseout="mclosetime();">Home</a>
+			    <div class="submenu" id="menu0"
+			      onmouseover="mcancelclosetime()"
+			      onmouseout="mclosetime();">
+			    </div>
+			  </li>
+			  <li><a href="./about.php" class="menu" id="mmenu1" 
+			      onmouseover="mopen(1);"
+			      onmouseout="mclosetime();">The Company</a>
+			    <div class="submenu" id="menu1"
+			      onmouseover="mcancelclosetime()"
+			      onmouseout="mclosetime();">
+				<a href="./mission.php">Mission</a>
+				<a href="./certification.php">Certifications</a>
+				<a href="./membership.php">Memberships</a>
+			    </div>
+			  </li>
+			  <li><a href="./railing.php" class="menu" id="mmenu2" 
+			      onmouseover="mopen(2);"
+			      onmouseout="mclosetime();">Railing</a>
+			    <div class="submenu" id="menu2"
+			      onmouseover="mcancelclosetime()"
+			      onmouseout="mclosetime();">
+			<!--
+				<a href="./private_home.php">Private Homes</a>
+				<a href="./commercial_res.php">Commercial Residences</a>
+				<a href="./commercial.php">Commercial</a>
+				<a href="./exterior.php">Exterior</a>
+			-->
+			    </div>
+			  </li>
+			   <li><a href="./kitchen.php" class="menu" id="mmenu3" 
+			      onmouseover="mopen(3);"
+			      onmouseout="mclosetime();">Kitchen</a>
+			    <div class="submenu" id="menu3"
+			      onmouseover="mcancelclosetime()"
+			      onmouseout="mclosetime();">
+			<!--
+				<a href="./countertop.php">Countertops</a>
+				<a href="./commercial_kitchen.php">Commercial Kitchens</a>
+				<a href="./restaurant.php">Restaurant</a>
+			-->
+			    </div>
+			  </li>
+			   <li><a href="./design.php" class="menu" id="mmenu4" 
+			      onmouseover="mopen(4);"
+			      onmouseout="mclosetime();">Design</a>
+			    <div class="submenu" id="menu4"
+			      onmouseover="mcancelclosetime()"
+			      onmouseout="mclosetime();">
+			<!--
+				<a href="./railing_design.php">Railing Designs</a>
+				<a href="./engineering.php">Engineering</a>
+				<a href="./consulting.php">Consulting</a>
+			-->
+			    </div>
+			  </li>
+			   <li><a href="./manufacturing.php" class="menu" id="mmenu5" 
+			      onmouseover="mopen(5);"
+			      onmouseout="mclosetime();">Manufacturing</a>
+			    <div class="submenu" id="menu5"
+			      onmouseover="mcancelclosetime()"
+			      onmouseout="mclosetime();">
+			<!--
+				<a href="./fabrication.php">Fabrication</a>
+			-->
+			    </div>
+			<!--
+			  </li>
+			   <li><a href="./structures.php" class="menu" id="mmenu6" 
+			      onmouseover="mopen(6);"
+			      onmouseout="mclosetime();">Structures</a>
+			    <div class="submenu" id="menu6"
+			      onmouseover="mcancelclosetime()"
+			      onmouseout="mclosetime();">
+				<a href="./building.php">Buildings</a>
+			    </div>
+			  </li>
+			  <li><a href="./link.php" class="menu">Links</a></li>
+			-->
+			   <li><a href="./design_gallery.php" class="menu">Image Gallery</a></li>
+			  <li><a href="./contact.php" class="menu" id="mmenu7" 
+			      onmouseover="mopen(7);"
+			      onmouseout="mclosetime();">Contact Us</a>
+			    <div class="submenu" id="menu7"
+			      onmouseover="mcancelclosetime()"
+			      onmouseout="mclosetime();">
+				<a href="./office.php">Office</a>
+				<a href="./map.php">Map</a>
+				<a href="./employment.php">Employment Opportunities</a>
+			   </div>
+			</li>
+		      </ul>
+		</td>
+	</tr>
+	<tr>
+		<td width="10%" rowspan="5"></td>
+		<td width="15%"><img src="./Images/logo001.gif" width="123" height="123" alt="Logo"></td>
+		<td width="65%"><p><H1>Old School Handyman Renovations</H1></p></td>
+		<td width="10%" rowspan="5"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td align="right">
+			<form method="get" action="http://www.google.com/search">
+				<input type="text"   name="q" size="31"
+				 	maxlength="255" value="" />
+				<input type="submit" value="Google Search" />
+			</form>
+		</td>
+	</tr>
